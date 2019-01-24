@@ -1,0 +1,541 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	RealEstate - Onepage Html Responsive Template
+Version:	1.1
+Last change:	03/05/2017 [fixed bug]
+Primary use:	RealEstate - Onepage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+/*---Full Navigation---*/
+
+	.fullscreen-nav nav.navbar.divinnav.no-background {
+		background-color: rgba(255,255,255,0.8);
+		border: none;
+	}
+	.fullscreen-nav section.getquote {
+		z-index: 0;
+	}
+	.fullscreen-nav .slide-1 .bigtext {
+		text-align: left;
+	}
+	.fullscreen-nav .slide-1 .captiontext{
+		text-align: center;
+		left: 0px;
+	}
+	.fullscreen-nav .slide-3 .blacktext{
+		left:0% !important;
+	}
+	.fullscreen-nav .slide-3 .bigtext {
+		text-align: left;
+		left: 0px;
+	}
+	.fullscreen-nav .about {
+		z-index: 0;
+	}
+	.fullscreen-nav .navbar-default {
+		margin:0;
+	}
+	.fullscreen-nav .navbar-brand {
+		height: auto;
+	}
+	.fullscreen-nav nav.navbar-full .navbar-brand {
+		position: relative;
+		top: 0px;
+	}
+	.fullscreen-nav nav.navbar.divinnav .navbar-toggle {
+		background-color: #a01d20;
+	}
+	.fullscreen-nav a:focus {
+    	color: #a01d20 !important;
+	}
+	.fullscreen-nav nav.navbar ul.nav li.scroll.active  a{
+		color: #fff !important;
+		background-color: #a01d20 !important;
+	}
+	.fullscreen-nav nav.navbar.no-background ul.nav  li  a:hover{
+		background-color: #a01d20 !important;
+		color:#fff !important;
+	}
+	.fullscreen-nav nav.navbar.divinnav .navbar-toggle {
+		height: 40px;
+		width: 40px;
+		font-size: 24px;
+		margin-top: 20px;
+		border-radius: 0;
+		color: #fff;
+		letter-spacing:0px;
+	}
+	.fullscreen-nav .quote-form .btn {
+		background-color: #a01d20;
+		border: solid 2px #a01d20;
+	}
+	.fullscreen-nav .tag.price{
+		background-color:#a01d20;
+	}
+	.fullscreen-nav .newsletter .btn {
+		background-color: #a01d20;
+		border: 1px solid #a01d20;
+	}
+	.fullscreen-nav .newsletter .btn:hover {
+		color:  #a01d20;
+	}
+	.fullscreen-nav .quote-form .btn:hover {
+		border: solid 2px #a01d20;
+		color: #a01d20;
+	}
+	.fullscreen-nav a:hover,.fullscreen-nav.whyus .panel-title a:focus {
+		text-decoration: none;
+		background-color: #a01d20 !important;
+		color: #fff !important;
+	}
+	.fullscreen-nav .whyus .panel-title a[aria-expanded="true"] {
+		background-color: #a01d20;
+		color: #fff;
+	}
+	.fullscreen-nav .navbar-brand:hover {
+		background:none !important;
+	}
+	.fullscreen-nav section.logo-slide {
+		background-color: #a01d20;
+	}
+	.fullscreen-nav .contact-form .btn:hover {
+		background-color: #fff;
+		border: solid 2px #a01d20;
+		color: #a01d20;
+	}
+	.fullscreen-nav .divinnav.navbar-full .navbar-collapse .wrap-full-menu {
+		background-color: rgba(0, 0, 0, 0.9);
+	}
+	.fullscreen-nav .social li a:hover{
+		border: solid 2px #fff;
+	}
+	.fullscreen-nav .contact-info h5, .fullscreen-nav .contact-info p i, .fullscreen-nav .contact-info span {
+		color: #a01d20;
+	}
+	.fullscreen-nav .copy span {
+		color: #a01d20;
+	}
+	.fullscreen-nav a:hover,.fullscreen-nav a:focus {
+		color: #fff !important;
+	}
+	@media only screen and (max-width: 991px) {
+	.fullscreen-nav nav.navbar.divinnav .navbar-toggle {
+		margin-top: 0px;
+	}
+	}
+	
+/*---Side Navigation---*/
+	.side-nav	nav.divinnav.navbar-sidebar{
+		border-right:none;
+	}
+	.side-nav .navbar-default {
+		margin: 0px;
+	}
+	.side-nav a:focus {
+    	color: #369e46;
+	}
+	.side-nav nav.divinnav.navbar-sidebar .scroller {
+		background-color: #111;
+	}
+	.side-nav nav.navbar ul.nav li.scroll.active > a, .side-nav nav.navbar ul.nav > li > a:hover {
+		color: #fff !important;
+		background-color: #369e46 !important;
+	}
+	.side-nav a:hover, a:focus {
+		color: #369e46;
+	}
+	.side-nav .navbar-default .nav > li > a:focus:hover {
+		color: #fff !important;
+		background-color:#369e46;	
+	}
+	.side-nav nav.divinnav.navbar-sidebar ul.nav {
+		padding: 0 0px !important;
+	}
+	.side-nav .navbar-brand {
+		padding: 5px;
+		height: auto;
+	}
+	.side-nav nav.divinnav.navbar-sidebar ul.nav  li  a {
+		font-weight:600;
+	}
+	.side-nav nav.navbar.divinnav .share .fa{
+		color:#333;
+	}
+	.side-nav nav.navbar .share ul  li  a:hover,.side-nav nav.navbar .share ul  li  a:focus {
+		background-color: #369e46;
+	}
+	.side-nav .quote-form .btn:hover {
+		border: solid 2px #369e46;
+		background-color: #fff;
+		color: #369e46;
+	}
+	.side-nav .newsletter .btn:hover {
+		color: #369e46;
+	}
+	.side-nav .quote-form .btn {
+		background-color:  #369e46;
+		border: solid 2px  #369e46;
+	}
+	.side-nav .tag.price {
+		background-color:  #369e46;
+	}
+	.side-nav .newsletter .btn {
+		background-color: #369e46;
+		border: 1px solid #369e46;
+	}
+	.side-nav .whyus .panel-title a[aria-expanded="true"] {
+		background-color: #369e46;
+		color: #fff;
+	}
+	.side-nav .whyus .panel-title a:hover,.side-nav .whyus .panel-title a:focus {
+		text-decoration: none;
+		background-color: #369e46 !important;
+		color: #fff !important;
+	}
+	.side-nav section.logo-slide {
+		background-color: #369e46;
+	}
+	.side-nav .contact-form .btn:hover {
+		background-color: #fff;
+		border: solid 2px #369e46;
+		color: #369e46;
+	}
+	.side-nav .contact-info h5,.side-nav .contact-info p i,.side-nav .contact-info span {
+		color: #369e46;
+	}
+	.side-nav .copy span {
+		color: #369e46;
+	}
+	.side-nav .social li a:hover {
+		background-color: #369e46;
+		color: #333;
+		border: solid 2px #369e46;;
+	}
+	.side-nav .social li a:hover i{
+		color:#fff;
+	}
+	.side-nav nav.navbar.divinnav .share {
+		text-align:center;
+	}
+
+	@media (min-width: 1024px) {
+
+	.side-nav nav.divinnav.navbar-sidebar {
+		position: fixed;
+		width: 260px;
+		overflow: hidden;
+		left: 0;
+		padding: 0 0 0 0 !important;
+		background: rgba(0, 0, 0, 0.9);
+		border-right: none;
+	}
+	.side-nav nav.divinnav.navbar-sidebar ul.nav {
+		padding: 0 0px !important ;
+	}
+	.side-nav nav.divinnav.navbar-sidebar .navbar-header {
+		padding: 10px 0px;
+	}
+	.side-nav nav.navbar-sidebar ul.nav, .side-nav nav.navbar-sidebar .navbar-brand {
+		margin-bottom: 25px;
+	}
+	}
+	@media (max-width: 992px){
+	.side-nav nav.navbar.divinnav .navbar-nav > li > a {
+		border-bottom: solid 1px #666;
+		border-top: solid 1px #666;
+		margin-bottom: 0px;
+	}
+	.side-nav nav.navbar .navbar-brand {
+		top: 10px;
+	}
+	}
+	.side-nav nav.navbar.divinnav .navbar-toggle {
+		background-color: #369e46;
+	}
+
+	.side-nav nav.navbar.divinnav .navbar-toggle {
+		background-color: #369e46;
+		height: 35px;
+		width: 40px;
+		font-size: 24px;
+		margin-top: 10px;
+		border-radius: 0;
+		color: #fff;
+		margin-right: -20px;
+		top: 0;
+	}
+/*---Scrolling Navigation---*/	
+	
+	.scroll .navbar-default {
+		margin: 0px !important;
+	}
+	.scroll .navbar-default .nav > li > a, .scroll .navbar-default .nav > li > a:focus {
+		color: #333;
+		padding: 30px 15px;
+	}
+	.scroll section.getquote {
+		z-index: 0;
+	}
+	.scroll .about {
+		z-index: 0;
+	}
+	.scroll .navbar-nav li:hover a{
+		color: #ff973d !important;
+	}
+	.scroll nav.navbar ul.nav li.scroll.active  a{
+		background-color:#ff973d;
+		color:#fff !important;
+	}
+	.scroll .tag.price {
+		background-color: #ff973d;
+	}
+	.scroll .quote-form .btn {
+		background-color: #ff973d;
+		border: solid 2px #ff973d;
+	}
+	.scroll .newsletter .btn {
+		background-color: #ff973d;
+		border: solid 2px #ff973d;
+	}
+	.scroll .whyus .panel-title a[aria-expanded="true"] {
+		background-color: #ff973d;
+		color: #fff;
+	}
+	.scroll .whyus .panel-title a:hover,.scroll .whyus .panel-title a:focus {
+		background-color: #ff973d !important;
+		color: #fff !important;
+	}
+	.scroll section.logo-slide {
+		background-color: #ff973d;
+	}
+	.scroll .social li a:hover {
+		background-color: #fff;
+		color: #ff973d;
+		border: solid 2px #ff973d;
+	}
+	.scroll .social li a:hover i{
+		color: #ff973d;
+	}
+	.scroll contact-info h5,.scroll .contact-info p i,.scroll .contact-info span {
+		color: #ff973d;
+	}
+	.scroll .contact-info h5{
+		color: #ff973d;
+	}
+	.scroll .copy span {
+		color: #ff973d;
+	}
+	.scroll a:hover,.scroll a:focus {
+		color: #ff973d;
+	}
+	.scroll .quote-form .btn:hover {
+		border: solid 2px #ff973d;
+		background-color: #fff;
+		color: #ff973d;
+	}
+	.scroll .newsletter .btn:hover {
+   	 	color: #ff973d;
+	}
+	.scroll .read-btn a:hover {
+		color: #ff973d;
+	}
+	.scroll .contact-form .btn:hover {
+		background-color: #fff;
+		border: solid 2px #ff973d;
+		color: #ff973d;
+	}
+	.scroll nav.navbar ul.nav li.scroll.active > a {
+		background-color: #ff973d !important;
+		color: #fff !important;
+	}
+	
+	
+	
+/*---Top-bar Navigation---*/	
+	
+	.top-bar .navbar-default {
+		margin: 0;
+	}
+	.top-bar .top-container {
+		float: left;
+		width: 100%;
+		color: #fff;
+		padding: 5px 0;
+		background-color: #27a9e1;
+	}
+	.top-bar section.getquote {
+		z-index: 0;
+	}
+	.top-bar .about {
+		z-index: 0;
+	}
+	.top-bar nav.navbar ul.nav li.scroll.active > a {
+		background-color: #27a9e1 !important;
+		color: #fff !important;
+	}
+	.top-bar .top-column-left, .top-column-right {
+		float: left;
+	}
+	.top-bar .top-social-network,.top-bar ul.contact-line,.top-bar ul.register {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	.top-bar ul.contact-line li:first-child {
+		border-left: none;
+		padding: 0;
+	}
+	.top-bar ul.contact-line li,.top-bar ul.register li {
+		float: left;
+		font-size: 12px;
+		list-style: none;
+		margin: 0 0 0 10px;
+		padding: 0 0 0 10px;
+		border-left: 1px solid rgba(255, 255, 255, 0.6);
+	}
+	.top-bar ul.contact-line li,.top-bar ul.register li {
+		font-size: 12px;
+		list-style: none;
+	}
+	.top-bar .top-column-right {
+		float: right;
+	}
+	.top-bar .top-container a,.top-bar .top-container a:hover,.top-bar .top-container a:focus,.top-bar .top-container a:active {
+		color: #fff;
+		margin:2px;
+	}
+	.top-bar .whyus .panel-title a:focus {
+		background-color: #1396e2 !important;
+		color: #fff !important;
+	}
+	
+	@media only screen and (max-width: 767px) { 
+		.top-bar .top-column-left{
+			line-height:22px;
+		}
+		.top-bar .top-column-right {
+			float: left;
+			margin-left: 10px;
+			line-height:22px;
+		}
+	}
+
+/*---Navigation-With-Sidebar Navigation---*/
+	
+	.nav-sidebar .side{
+		background-color:#64b8b8;
+		color:#fff;
+	}
+	.nav-sidebar .side .widget ul.link li a {
+		color:#fff;
+	}
+	.nav-sidebar nav.navbar.divinnav.no-background {
+		background-color: rgba(255,255,255,0.7);
+		border: none;
+		background-color: ;
+	}
+	.nav-sidebar .navbar-default {
+		margin: 0;
+	}
+	.nav-sidebar section.getquote {
+		z-index: 0;
+	}
+	.nav-sidebar .about {
+		z-index: 0;
+	}
+	.nav-sidebar nav.navbar ul.nav li.scroll.active > a, .nav-sidebar nav.navbar ul.nav li.scroll.active > a:hover{
+		color: #fff !important;
+		background: #64b8b8 !important;
+	} 
+    .nav-sidebar nav.navbar ul.nav > li > a:hover{
+		color: #fff !important;
+		background: #64b8b8 !important;
+	}
+	.nav-sidebar .quote-form .btn {
+		background-color: #64b8b8;
+		border: solid 2px #64b8b8;
+	}
+	.nav-sidebar .quote-form .btn:hover {
+		border: solid 2px #64b8b8;
+		background-color: #fff;
+		color: #64b8b8;
+	}
+	.nav-sidebar .tag.price {
+      background-color:#64b8b8;
+	}
+	.nav-sidebar .newsletter .btn {
+		background-color: #64b8b8;
+		border: 1px solid #64b8b8;
+	}
+	.nav-sidebar .newsletter .btn:hover {
+    	color: #64b8b8 !important;
+	}
+	.nav-sidebar .whyus .panel-title a[aria-expanded="true"] {
+		background-color: #64b8b8;
+		color: #fff;
+	}
+	.nav-sidebar .panel-title a:hover,.nav-sidebar .whyus .panel-title a:focus {
+		background-color: #64b8b8 !important;
+		color: #fff !important;
+	}
+	.nav-sidebar section.logo-slide {
+		background-color: #64b8b8;
+	}
+	.nav-sidebar .contact-info h5, .nav-sidebar .contact-info p i,.nav-sidebar .contact-info span {
+		color: #64b8b8;
+	}
+	.nav-sidebar .copy span {
+		color: #64b8b8;
+	}
+	.nav-sidebar .social li a:hover {
+		background-color: #fff;
+		color:  #64b8b8;
+		border: solid 2px  #64b8b8;
+	}
+	.nav-sidebar .social li a:hover i{
+		color:  #64b8b8;
+	}
+	.nav-sidebar .contact-form .btn:hover {
+		background-color: #fff;
+		border: solid 2px #64b8b8;
+		color: #64b8b8;
+	}
+	@media only screen and (max-width: 991px) {
+		.nav-sidebar nav.navbar.divinnav .navbar-toggle {
+			float: left !important;
+		}
+		.nav-sidebar .slider-banner {
+			margin-top: 0px !important;
+		}
+		.nav-sidebar .master-slider{
+			width:auto !important;
+		}
+	}
+	@media only screen and (max-width: 767px) { 
+		.nav-sidebar nav.navbar.divinnav .navbar-toggle {
+			float: left !important;
+		}
+		.nav-sidebar .slider-banner {
+			margin-top: 0px !important;
+		}
+	}
+	.nav-sidebar .slide-3 .blacktext {
+    left: 0% !important;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
